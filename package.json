@@ -1,0 +1,20 @@
+{
+  "name": "smart-home-configuration",
+  "version": "1.0.0",
+  "description": "returns configurations in particular formats for the little things starting up (wemos)",
+  "main": "confApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nopbyte",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jsbeautifier": "^0.2.13"
+  }
+}

@@ -16,11 +16,11 @@ module.exports = {
       }
     },
     "some-other-esp-id": {
-      "mq135": {
+      "generic": {
         "pin": "A0",
         "location": "kitchen",
-        "min-range": 0, //these two values are needed to map the voltages from 0 to  3.3 V on the Wemos due to the resistor divisor
-        "max-range": 930
+        "minRange": 0, //these two values are needed to map the voltages from 0$
+        "maxRange": 930
       }
     }
   }
